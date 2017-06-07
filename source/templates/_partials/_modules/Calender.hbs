@@ -1,0 +1,107 @@
+
+
+
+<section class="fullwidth calender">
+
+
+
+	{{#each Events}}
+	{{#if [Featured]}}
+					<div class="featured_event">
+						<div class="bar">
+						<h1 class="heading-9 {{#if [Title Hidden] }} visuallyhidden {{/if}}">{{ ../../Title }}</h1>
+					</div>
+
+					{{else}}
+					<div class="container">
+						{{/if}}
+					<div class="event {{BackgroundImage.[Class Name]}}">
+						{{#if BackgroundImage}}
+				{{>backgroundimage this.BackgroundImage}}
+{{/if}}
+						<div class="date">
+						<span class="heading-4">{{Day}}</span>
+					</div>
+						<div class="event_details">
+						<h1 class="georgia heading-7"> {{Date}}</h1>
+						<br>
+							<h2 class="heading-5"> {{Title}}</h2>
+							{{#if [buttons]}}
+							<br>
+							<div class="calendericons">
+							{{>button this.share_button}}
+							{{>button this.comment_button}}
+						</div>
+							{{/if}}
+				</div>
+					</div>
+				</div>
+			</div>
+					{{/each}}
+					<!-- {{#if button}}
+					{{>button button}}
+										{{>button button2}}
+				{{/if}} -->
+
+					<!-- <div class="bar">
+						campus calender
+
+	</div>
+				</div>
+
+				<div class="container">
+
+	<div class="events">
+		<div class="">
+		<h4>07</h4>
+	</div>
+		<div class="event_details">
+		<h7 class="georgia-itc font-16"> June 21st 2017</h7>
+		<br>
+			<h5> BET comes to campus.</h5>
+			<br>
+
+			<div class="calendericons">
+		<a class="font-16"> <img src="assets/img/icons/share.svg" width="10%"> share</a>
+		<a class="font-16"> <img src="assets/img/icons/quotebox.svg" width="10%"> comment</a>
+
+		</div>
+</div>
+	</div>
+	<div class="events">
+		<div class="">
+		<h4>09</h4>
+	</div>
+		<div class="event_details">
+		<h7 class="georgia-itc font-16"> June 21st 2017</h7>
+		<br>
+			<h5> Summer classes end today.</h5>
+			<br>
+
+			<div class="calendericons">
+		<a class="font-16"> <img src="assets/img/icons/share.svg" width="10%"> share</a>
+		<a class="font-16"> <img src="assets/img/icons/quotebox.svg" width="10%"> comment</a>
+
+		</div>
+</div>
+	</div>
+	<div class="events">
+		<div class="">
+		<h4>21</h4>
+	</div>
+		<div class="event_details">
+		<h7 class="georgia-itc font-16"> June 21st 2017</h7>
+		<br>
+			<h5> Early registration for classes.</h5>
+			<br>
+
+			<div class="calendericons">
+		<a class="font-16"> <img src="assets/img/icons/share.svg" width="10%"> share</a>
+		<a class="font-16"> <img src="assets/img/icons/quotebox.svg" width="10%"> comment</a>
+
+		</div>
+</div>
+	</div>
+
+	</div> -->
+			</section>

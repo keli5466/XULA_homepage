@@ -1,0 +1,69 @@
+@mixin heading-1() { // 72 : 80
+  // @include font-helvetica-neue-condenced-black();
+
+  font-size: $font-size-1 *0.8;
+  @include mq($S) { font-size: $font-size-1 *0.9; }
+  @include mq($M) { font-size: $font-size-1; }
+  font-weight: normal;
+  line-height: get-multiplier(80, $font-size-1);
+}
+
+@mixin heading-2() { // 48 : 54
+  font-size: $font-size-2 *0.9;
+  @include mq($S) { font-size: $font-size-2; }
+  font-weight: normal;
+  line-height: get-multiplier(54, $font-size-2);
+}
+
+@mixin heading-3() { // 36 : 42
+  // @include font-helvetica-neue-condenced-light();
+  font-size: $font-size-3;
+  line-height: get-multiplier(42, $font-size-3);
+  // text-transform: uppercase;
+    font-weight: normal;
+}
+
+@mixin heading-4() { // 28 : 36
+  // @include font-helvetica-neue-medium();
+  font-size: $font-size-4;
+  line-height: get-multiplier(36, $font-size-4);
+  font-weight: normal;
+}
+
+@mixin heading-5() { // 20 : 24
+  // @include font-helvetica-neue-condenced-light();
+  font-size: $font-size-5;
+    font-weight: normal;
+  line-height: get-multiplier(24, $font-size-base);
+}
+
+@mixin heading-6() { // 18 : 24
+  // @include font-helvetica-neue-bold();
+  font-size: $font-size-6;
+    font-weight: normal;
+  line-height: get-multiplier(24, $font-size-8);
+}
+@mixin heading-7() { // 18 : 24
+  // @include font-helvetica-neue-bold();
+  font-size: $font-size-7;
+    font-weight: normal;
+  line-height: get-multiplier(24, $font-size-8);
+}
+@mixin heading-8() { // 16 : 20
+  // @include font-helvetica-neue-bold();
+  font-size: $font-size-8;
+    font-weight: normal;
+  line-height: get-multiplier(20, $font-size-8);
+}
+@mixin heading-9() { // 14: 24
+  // @include font-helvetica-neue-bold();
+  font-size: $font-size-9;
+    font-weight: normal;
+  line-height: get-multiplier(14, $font-size-9);
+}
+@mixin heading-10() { // 12 : 24
+  // @include font-helvetica-neue-bold();
+  font-size: $font-size-10;
+    font-weight: normal;
+  line-height: get-multiplier(12, $font-size-10);
+}

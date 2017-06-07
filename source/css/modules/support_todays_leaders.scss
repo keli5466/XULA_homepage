@@ -1,0 +1,37 @@
+.support-todays-leaders {
+	// margin: 3em;
+	// min-height: 600px;
+	// height: 60vh;
+	position: relative;
+	height: 60vmin;
+	min-height: 50vmax;
+
+	.container {
+
+		height: 95%;
+		max-width: 1600px;
+		width: 95%!important;
+	}
+
+	.wrap {
+		// margin: 1em 0 0 1em;
+		text-align: center;
+		z-index: 1;
+		padding: 5em;
+	}
+
+	h2 {
+		// font-size: 80px;
+		// font-weight: bold;
+		margin-bottom: 5%;
+	}
+
+
+img.cutout {
+	width: 90%;
+	max-width: 1600px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+}

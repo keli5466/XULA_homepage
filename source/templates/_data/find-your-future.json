@@ -1,0 +1,73 @@
+
+{
+    "Title": "This is XULA",
+    "Title Hidden": true,
+    "Headline": [
+      {
+        "Title": "Find Your",
+        "Text": "FUTURE"
+      }
+
+    ],
+"BackgroundImage": {
+	"Class Name": "find_your_future",
+	"default": "../../images/icons/1-black-docs.svg",
+	"small": "google.com",
+	"medium": "../../images/tmp/river.jpg",
+	"large": "../../images/tmp/ocean.jpg",
+	"xlarge": "../../images/tmp/river.jpg"
+},
+
+        "Content": [
+          {
+            "subline": "From nationally recognized programs to top producing majors, the journey to success starts right here. Pursue your interests with the support of Xavier’s faculty and community, and we can all but guarantee you’ll set off down a path you’ll love."
+					}
+        ],
+        "Icon_Grid": {
+          "Title": "XULA facts",
+          "Title Hidden": true,
+          "Blurb": [
+            {
+              "Image": {
+                "src": "../images/icons/primelocation.svg",
+                "alt": ""
+              },
+              "Title": "Prime Location",
+              "Text": "New Orleans, LA - a lively melting pot of history, culture, charismatic faces and places"
+            },
+            {
+              "Image": {
+                "src": "../images/icons/catholic.svg",
+                "alt": ""
+              },
+              "Title": "Catholic HBCU",
+              "Text": "The only Catholic and Historically Black College or University in the nation."
+            },
+            {
+              "Image": {
+                "src": "../images/icons/1-black-docs.svg",
+                "alt": ""
+              },
+              "Title": "#1 FOR BLACK DOCTORS",
+              "Text": "Consistently produces more black medical students than any other institution in the country."
+            },
+            {
+
+                "Image": {
+                  "src": "../images/icons/stem.svg",
+                  "alt": ""
+                },
+                "Title": "#1 FOR BLACK STEM GRADS",
+                "Text": "Top university for awarding bachelor’s degrees to African American Students in Biological and physical sciences."
+              }
+
+          ]
+        },
+        "button":
+           {
+             "link" : "#",
+  "text": "about us",
+  "class": "yellow"
+}
+
+}

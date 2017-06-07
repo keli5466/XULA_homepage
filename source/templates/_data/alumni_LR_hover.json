@@ -1,0 +1,62 @@
+{
+  "Alumni_Hover": {
+    "Title": "Alumni Hover Leave Readu",
+    "Title Hidden": true,
+    "Alumni": [
+      {
+      "BackgroundImage": {
+        "Class Name": "Alumni_1",
+        "default": "../../images/Pages/Home/judge1.jpg"
+
+      },
+      "Title": "I am a leader.",
+      "Name": "Terrence Osbourne",
+      "Class_Year" :"Class of 2000",
+      "Major": "Fine Arts Major",
+      "Location": "New Orleans",
+      "job": "Local Artist"
+    },
+    {
+    "BackgroundImage": {
+      "Class Name": "Alumni_2",
+      "default": "../../images/Pages/Home/guy.jpg"
+
+    },
+    "Title": "I am a leader.",
+    "Name": "Terrence Osbourne",
+    "Class_Year" :"Class of 2000",
+    "Major": "Fine Arts Major",
+        "Location": "New Orleans",
+    "job": "Local Artist"
+  },
+  {
+  "BackgroundImage": {
+    "Class Name": "Alumni_3",
+    "default": "../../images/Pages/Home/doc.jpg"
+
+  },
+  "Title": "I am a leader.",
+  "Name": "Terrence Osbourne",
+  "Class_Year" :"Class of 2000",
+  "Major": "Fine Arts Major",
+  "Location": "New Orleans",
+  "job": "Local Artist"
+  },
+  {
+  "BackgroundImage": {
+    "Class Name": "Alumni_4",
+    "default": "../../images/Pages/Home/guy1.jpg"
+
+  },
+  "Title": "I am a leader.",
+  "Name": "Terrence Osbourne",
+  "Class_Year" :"Class of 2000",
+  "Major": "Fine Arts Major",
+  "Location": "New Orleans",
+  "job": "Local Artist"
+  }
+
+
+    ]
+  }
+}

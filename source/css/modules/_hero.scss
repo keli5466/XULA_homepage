@@ -1,0 +1,130 @@
+.hero {
+	background: url("../../images/home-hero.jpg") no-repeat center center/cover;
+	height: 50vh;
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	h1 {
+		color: white ;
+		font-size: 5em;
+
+		line-height: 1;
+		text-transform: uppercase;
+
+		span {
+			display: block;
+
+			&:nth-child(2) {
+				color: $gold;
+			}
+		}
+	}
+}
+.hero--fullscreen-image {
+  // background: green;
+  height: 100%;
+  left: 0;
+  padding: 0 !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+
+  img {
+    left: 50%;
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .js & {
+      // opacity: 0;
+      transition: opacity 0.3s ease-in;
+
+    }
+
+    .isSafari & {
+      left: 0;
+      top: 0;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+.js .hero--fullscreen--is-displayed img { opacity: 1; }
+
+.hero {
+  // margin: 0 (-$main-spacing-s);
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+
+  // @include mq($M) { margin: 0 (-$main-spacing-m); }
+  // @include mq($L) { margin: 0 (-$main-spacing-l)  0 (-$menu-spacing); }
+  // @include mq($XL){ margin: 0 (-$main-spacing-xl) 0 (-$menu-spacing-xl); }
+
+  img,
+  picture {
+    display: block;
+    width: 100%;
+  }
+}
+
+.hero--fullscreen {
+  @extend .hero;
+
+  // padding: $space*5 0 $space*2;
+
+  @include mq($L) { padding-top: 45%; padding-bottom: 0; }
+  @include mq($XL){ padding-top: 40%; }
+}
+
+.hero__content {
+  color: green;
+  left: 50%;
+  max-width: 45rem;
+  padding: 0 $space;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -40%);
+  width: 100%;
+  z-index: 10;
+
+  @include mq($L) {
+    margin-left: 19rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero--fullscreen & {
+    left: auto;
+    margin: 0 auto;
+    position: relative;
+    top: auto;
+    transform: none;
+
+    @include mq($L) {
+      left: 50%;
+      margin: 0;
+      margin-left: 19rem;
+      // padding-top: $space*2;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  h1 {
+    @include heading-1();
+    //
+    // text-shadow: $text-shadow;
+  }
+
+  p {
+    font-size: $font-size-6;
+    padding: 0;
+  }
+}

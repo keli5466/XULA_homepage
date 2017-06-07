@@ -1,0 +1,47 @@
+{
+  "Alert": {
+    "Id": "{0f9f77f7-ad69-435b-9762-354422cd2e9c}",
+    "Title": "XULA Facts",
+    "TitleIsDisplayed": false,
+    "Heading": "Be a part of the process",
+    "HeaderCopy": "Your gift, no matter how large or small, makes a difference to XULA’s students today and tomorrow.",
+    "button": {
+			"link" : "#",
+"text": "give now",
+"class": "yellow"
+    },
+    "BodyCopy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra volutpat faucibus. Nullam augue felis, bibendum eu est id, ultricies luctus est. Morbi accumsan rhoncus mauris a condimentum. Mauris non sem nisl. Etiam arcu ex, tempus at ipsum in, pharetra vehicula metus. Maecenas eget tellus vel orci facilisis dapibus varius quis enim. Etiam aliquam metus semper, porta elit eget, tempus diam.",
+    "Contacts": [
+      {
+        "Contact": {
+          "Name": "<span> 14:1</span> Students : Faculty"
+        }
+      },
+      {
+        "Contact": {
+          "Name": "<span> 684</span> First-Time Freshmen"
+        }
+      },
+			{
+				"Contact": {
+					"Name": "<span> 97%</span> Retention Rate"
+				}
+			},
+      {
+        "Contact": {
+          "Name": "<span> 87%</span> Receiving Financial Aid"
+        }
+      }
+    ],
+    "BodyLink": {
+      "href": "",
+      "id": "",
+      "target": "",
+      "text": "Lorem Ipsum"
+    },
+		"Image": {
+			"src": "../images/cutouts/xula-fb-doc.png",
+			"alt": ""
+		}
+  }
+}

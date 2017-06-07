@@ -1,0 +1,41 @@
+.tile-grid {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	.tile {
+		position: relative;
+		width: 24%;
+		padding-bottom: 24%;
+		filter: grayscale(100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 1em;
+		background-position: center;
+
+		&:hover {
+			filter: grayscale(0%);
+
+			h2 {
+				opacity: 1;
+			}
+		}
+
+		h2 {
+			position: absolute;
+			background: $gold;
+			width: 100%;
+			padding: 5%;
+			bottom: 0;
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			opacity: 0;
+
+			&:after {
+				content: " >";
+			}
+		}
+	}
+}

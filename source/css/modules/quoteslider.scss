@@ -1,0 +1,56 @@
+
+.slider {
+  max-width: 80%;
+  margin: 2em auto;}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 16em;
+	}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+			padding: 2em 0em;
+    position: relative;
+	}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+		transition : .6s ease-in-out;
+    position: absolute;
+		text-align: center;
+
+		h1{
+		letter-spacing: .2em;
+		line-height: 1.7em;
+		}
+	 }
+
+.slide:first-child {
+    display: block;
+		// transition : .6s ease-in-out;
+		transform: translate3d(0, 0, 0);
+	}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+
+}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: $grey2;
+  font-size: 2.5em;
+		outline: none;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: $gold;
+  cursor: pointer;}

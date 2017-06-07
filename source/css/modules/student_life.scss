@@ -1,0 +1,25 @@
+.student-life {
+	// background: url(assets/img/students.png);
+	height: 100%;
+	position: relative;
+		// @include triangle(4em, green, left);
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	.col-1-2 {
+
+		&:first-child {
+
+			position: relative;
+			@include triangle(2em, white, right, 25%);
+			min-height: 100%;
+			background: url("../../images/students.jpg") no-repeat center center/cover;
+
+		}
+
+		&:last-child {
+			padding-left: 3em;
+		}
+	}
+}

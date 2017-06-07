@@ -1,0 +1,42 @@
+{
+  "Featured_Staff": {
+    "Title": "Alumni Hover Leave Readu",
+    "Title Hidden": true,
+    "Staff": [
+      {
+      "BackgroundImage": {
+        "Class Name": "renne_akbar",
+        "default": "../../images/Pages/Home/renne_akbar.jpg"
+
+      },
+      "Name": "dr.Renee akbar",
+			"Triangle": "lefttriangle",
+      "Department" :"EDUCATION DEPARTMENT",
+      "Quote": "“At Xavier, it’s safe to be smart and black.”"
+    },
+		{
+		"BackgroundImage": {
+			"Class Name": "ron_bechet",
+			"default": "../../images/Pages/Home/ron_bechet.jpg"
+
+		},
+		"Name": " MR. RON BECHET",
+		"Triangle": "downtriangle",
+		"Department" :"ART DEPARTMENT ",
+		"Quote": "“The entire campus feels like a team and are here for the students. It’s part of what makes it so fun.”"
+	},
+	{
+	"BackgroundImage": {
+		"Class Name": "renne_akbar",
+		"default": "../../images/Pages/Home/renne_akbar.jpg"
+
+	},
+	"Name": "DR. TIMOTHY TURNER",
+	"Triangle": "righttriangle",
+	"Department" :"MUSIC DEPARTMENT",
+	"Quote": "“Everyone has gaps, but if you’re prepared to work, Xavier will help you succeed.”"
+}
+
+    ]
+  }
+}

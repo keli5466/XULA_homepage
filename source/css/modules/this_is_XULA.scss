@@ -1,0 +1,21 @@
+.this-is-xula {
+
+	.col-1-2 {
+		&:first-child{
+			padding-right: 2em;
+		h5 {
+
+		}
+		h6{
+			line-height: 2em;
+			font-weight: 300;
+			color: $grey3;
+		 }
+}
+		&:last-child {
+			padding-left: 2em;
+			padding-top: 5em;
+
+	}
+}
+}

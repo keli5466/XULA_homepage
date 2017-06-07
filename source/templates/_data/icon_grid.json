@@ -1,0 +1,42 @@
+{
+  "Icon_Grid": {
+    "Title": "XULA facts",
+    "Title Hidden": true,
+    "Blurb": [
+      {
+        "Image": {
+          "src": "../images/icons/primelocation.svg",
+          "alt": ""
+        },
+        "Title": "Prime Location",
+        "Text": "New Orleans, LA - a lively melting pot of history, culture, charismatic faces and places"
+      },
+      {
+        "Image": {
+          "src": "../images/icons/catholic.svg",
+          "alt": ""
+        },
+        "Title": "Catholic HBCU",
+        "Text": "The only Catholic and Historically Black College or University in the nation."
+      },
+      {
+        "Image": {
+          "src": "../images/icons/1-black-docs.svg",
+          "alt": ""
+        },
+        "Title": "#1 FOR BLACK DOCTORS",
+        "Text": "Consistently produces more black medical students than any other institution in the country."
+      },
+      {
+
+          "Image": {
+            "src": "../images/icons/stem.svg",
+            "alt": ""
+          },
+          "Title": "#1 FOR BLACK STEM GRADS",
+          "Text": "Top university for awarding bachelor’s degrees to African American Students in Biological and physical sciences."
+        }
+
+    ]
+  }
+}

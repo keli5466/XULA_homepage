@@ -1,0 +1,85 @@
+{
+  "Alert": {
+    "Id": "{0f9f77f7-ad69-435b-9762-354422cd2e9c}",
+    "Title": "XULA Facts",
+    "TitleIsDisplayed": false,
+    "Heading": "Be a part of the process",
+    "HeaderCopy": "Your gift, no matter how large or small, makes a difference to XULA’s students today and tomorrow.",
+    "button": {
+			"link" : "#",
+"text": "give now",
+"class": "yellow"
+    },
+		"Icon_Grid": {
+			"Title": "XULA facts",
+			"Title Hidden": true,
+			"Blurb": [
+				{
+          "Title": "STUDENT LIFE",
+          "Text": "Once an Xavierite, always an Xavierite. When you’re here,campus is home and our community is family.",
+
+					"Image": {
+						"src": "../images/icons/notebook.svg",
+						"alt": ""
+					},
+          "Link":  {
+            "href": "google.com",
+            "id": "",
+            "target": "",
+            "text": "read more >"
+}
+				},
+        {
+          "Title": "Admissions",
+          "Text": "It doesn’t take Ivy League tuition to get an Ivy League education. Chances are, there’s a place for you to thrive here.",
+
+					"Image": {
+						"src": "../images/icons/notebook.svg",
+						"alt": ""
+					},
+          "Link":  {
+            "href": "google.com",
+            "id": "",
+            "target": "",
+            "text": "read more >"
+}
+				},
+        {
+          "Title": "academics",
+          "Text": "Our standards are high, but so is our level of support. XULA educators are devoted to helping each student find success.",
+
+					"Image": {
+						"src": "../images/icons/notebook.svg",
+						"alt": ""
+					},
+          "Link":  {
+            "href": "google.com",
+            "id": "",
+            "target": "",
+            "text": "read more >"
+}
+				},
+        {
+          "Title": "athletics",
+          "Text": "From baseball to basketball, tennis to track-and-field, XULA blood pumps gold and green.",
+
+					"Image": {
+						"src": "../images/icons/notebook.svg",
+						"alt": ""
+					},
+          "Link":  {
+            "href": "google.com",
+            "id": "",
+            "target": "",
+            "text": "read more >"
+}
+				}
+
+			]
+		},
+		"Image": {
+			"src": "../images/students.jpg",
+			"alt": ""
+		}
+  }
+}

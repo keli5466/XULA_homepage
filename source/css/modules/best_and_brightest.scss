@@ -1,0 +1,32 @@
+.best-and-brightest {
+
+	.container {
+		position: relative;
+		flex-flow: column;
+
+
+
+img.cutout  {
+		margin-top: -3em;
+		text-align: right;
+		// position: absolute;
+		// bottom: 0;
+		// left: 0;
+		width: 30%;
+	}
+
+	h2,
+	h5 {
+		margin: 0%;
+	}
+
+	.wrap {
+		text-align: right;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 70%;
+		padding: 5%;
+	}
+}
+}

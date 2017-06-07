@@ -1,0 +1,102 @@
+.Alumni_LR {
+	.leader {
+		width: 25%;
+		min-height: 40em;
+		height: 10em;
+		text-align: right;
+		background-position: center;
+		background-size: cover;
+
+		display: flex;
+		flex-flow: column;
+		justify-content: space-around;
+		position: relative;
+		.yellow_box_wrap {
+	position: absolute;
+	top: 60%;
+	bottom: -5%;
+	right: 0;
+	left: 0;
+
+	h1 {
+		background: $gold;
+		width: 90%;
+		padding: 0.6em .5em 1em 0em;
+		margin: auto 0 0;
+		// font-size: 20px;
+
+	}
+
+		h2 {
+			// font-size: 30px;
+			margin-bottom: 0;
+
+		}
+
+		h3 {
+			margin-top: 0;
+			// margin-bottom: 5%;
+			// font-size: 12px;
+			letter-spacing: .1em;
+			// letter-spacing: 2px;
+			// line-height: 2em;
+
+			text-transform: uppercase;
+		}
+
+		h4 {
+			margin: 0;
+			line-height: 2em;
+			padding-top: 1em;
+			font-weight: 400;
+			// font-size: 14px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+
+}
+.lower_info_box {
+	position: absolute;
+	right: 0;
+	width: 90%;
+	left: 0;
+	top: 25%;
+	opacity: 0;
+
+}
+
+.wrap {
+	position: relative;
+	padding-bottom: 1em;
+	&:after {
+		content: "";
+		display: block;
+		width: 70%;
+		height: .1em;
+		background: white;
+		position: absolute;
+		bottom: 0%;
+		right: 0;
+	}
+
+	// border-bottom: 2px solid white;
+	// margin-bottom: 5%;
+}
+
+
+	&:hover {
+
+		// h3 {
+		// 	max-width: 100%;
+		// }
+
+		.yellow_box_wrap {
+			background-color: $gold;
+		}
+
+		.lower_info_box {
+			opacity: 1;
+		}
+	}
+	}
+}

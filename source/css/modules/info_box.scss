@@ -1,0 +1,47 @@
+.info_box {
+	.col-1-2 {
+		text-align: center;
+		padding: 3em 1em;
+		display: flex;
+		flex-flow: column;
+
+		&:first-of-type {
+			background: $grey1;
+
+			h2 span {
+				color: $gold;
+			}
+		}
+
+		&:last-of-type {
+			background: $gold;
+
+			h2 span {
+				color: $grey1;
+			}
+		}
+	}
+
+	h2 {
+		// font-size: 50px;
+		text-transform: uppercase;
+		margin: 0;
+		font-weight: $light;
+
+		span {
+			// display: block;
+			font-weight: bold;
+		}
+	}
+
+	p {
+		// font-size: 18px;
+		// line-height: 2;
+		margin: 2em 0;
+	}
+
+	// a.btn-ghost {
+	// 	// width: 50%;
+	// 	margin: 0 auto;
+	// }
+}

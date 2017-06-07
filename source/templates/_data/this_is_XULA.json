@@ -1,0 +1,73 @@
+
+{
+    "Title": "This is XULA",
+    "Title Hidden": true,
+    "Headline": [
+      {
+        "Title": "This is",
+        "Text": "XULA"
+      }
+
+    ],
+
+        "Content": [
+          {
+            "subline": "Tomorrow’s leaders walk our campus today. Will you walk among them?"},
+          {
+            "copy": "Standing in a city rich with history, Xavier University of Louisiana has been poised to contribute to New Orleans’ impressive roster of movers and shakers since its inception in 1915."
+          },
+          {
+            "copy":"As the country’s only Catholic and Historically Black College or University, XULA is in a unique position to graduate global citizens on our pillars of faith, service and community. "
+          },
+          {
+            "copy":"Dedicated to meeting students where they are and nurturing them towards their truest potential, Xavier’s passionate and devoted educators help each incoming class leave ready to make their mark on this world."
+          }
+        ],
+        "Icon_Grid": {
+          "Title": "XULA facts",
+          "Title Hidden": true,
+          "Blurb": [
+            {
+              "Image": {
+                "src": "../images/icons/primelocation.svg",
+                "alt": ""
+              },
+              "Title": "Prime Location",
+              "Text": "New Orleans, LA - a lively melting pot of history, culture, charismatic faces and places"
+            },
+            {
+              "Image": {
+                "src": "../images/icons/catholic.svg",
+                "alt": ""
+              },
+              "Title": "Catholic HBCU",
+              "Text": "The only Catholic and Historically Black College or University in the nation."
+            },
+            {
+              "Image": {
+                "src": "../images/icons/1-black-docs.svg",
+                "alt": ""
+              },
+              "Title": "#1 FOR BLACK DOCTORS",
+              "Text": "Consistently produces more black medical students than any other institution in the country."
+            },
+            {
+
+                "Image": {
+                  "src": "../images/icons/stem.svg",
+                  "alt": ""
+                },
+                "Title": "#1 FOR BLACK STEM GRADS",
+                "Text": "Top university for awarding bachelor’s degrees to African American Students in Biological and physical sciences."
+              }
+
+          ]
+        },
+        "button":
+           {
+             "link" : "#",
+  "text": "about us",
+  "class": "yellow"
+}
+
+}

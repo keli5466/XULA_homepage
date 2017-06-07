@@ -1,0 +1,31 @@
+<section class="fullwidth Alumni_LR">
+
+{{#each Alumni}}
+<div class="leader {{BackgroundImage.[Class Name]}}">
+	{{>backgroundimage this.BackgroundImage}}
+	<div class="yellow_box_wrap">
+			<h1 class="heading-7">{{Title}} </h1>
+
+<div class="lower_info_box">
+	<div class="wrap">
+<h2 class="heading-5 georgia">
+{{Name}}
+</h2>
+<h3 class="heading-10">
+{{Class_Year}}<br>
+</h3>
+</div>
+<h4 class="heading-9">
+{{Major}}
+<br>
+{{Location}}
+<br>
+{{job}}
+<br>
+</h4>
+
+</div>
+</div>
+</div>
+{{/each}}
+</section>

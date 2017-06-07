@@ -1,0 +1,35 @@
+.button {
+	border: none;
+	// font-size: 1rem;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	padding: 1em 3em;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&-yellow {
+		@extend .button;
+
+		background-color: $gold;
+		color: black;
+	}
+
+	&-ghost {
+		@extend .button;
+		background-color: transparent;
+		color: black;
+		border: .1em solid black;
+		margin: 0 auto;
+
+		&:hover {
+			background-color: $gold;
+			color: white;
+		}
+	}
+
+	+ .button {
+		margin-left: 2em;
+	}
+}

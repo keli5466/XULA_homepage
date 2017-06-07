@@ -1,0 +1,53 @@
+{
+  "STL": {
+    "Title": "XULA facts",
+    "Title Hidden": true,
+		"Class": "support-todays-leaders",
+        "Image": {
+          "src": "../images/cutouts/todays-leaders.png",
+          "alt": ""
+        },
+				"button":
+					 {
+						 "link" : "#",
+	"text": "ALumni",
+	"class": "yellow"
+},
+"button2":
+   {
+     "link" : "#",
+"text": "Give Now",
+"class": "yellow"
+},
+
+
+        "Title": "Support today's leaders"
+
+  },
+  "BnB": {
+    "Title": "XULA facts",
+    "Title Hidden": true,
+    "Class": "best-and-brightest",
+        "Image": {
+          "src": "../images/cutouts/XULA_verett_grad.png",
+          "alt": ""
+        },
+
+        "Title": "Support today's leaders",
+        "Text": "The Best and Brightest-"
+
+  },
+  "HnE": {
+    "Title": "XULA facts",
+    "Title Hidden": true,
+    "Class": "the_latest",
+        "Image": {
+          "src": "../images/cutouts/building_cutout.png",
+          "alt": ""
+        },
+
+        "Title": "The Latest.",
+        "Text": "Happenings and events on campus-"
+
+  }
+}

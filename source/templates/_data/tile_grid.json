@@ -1,0 +1,83 @@
+{
+  "Tile_Grid": {
+    "Title": "XULA facts",
+    "Title Hidden": true,
+    "Tile": [
+      {
+      "BackgroundImage": {
+        "Class Name": "College_of_Arts",
+        "default": "../../images/track.jpg"
+
+      },
+      "Title": "College of Arts ",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_Scienc",
+        "default": "../../images/church.jpg"
+
+      },
+      "Title": "College of Science",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_Math",
+        "default": "../../images/cheer.jpg"
+
+      },
+      "Title": "College of Math",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_Biology ",
+        "default": "../../images/grad.jpg"
+
+      },
+      "Title": "College of Biology  ",
+      "Link": "#"
+    },
+
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_Music",
+        "default": "../../images/study.jpg"
+
+      },
+      "Title": "College of Music ",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_Pharmacy",
+        "default": "../../images/pharm.jpg"
+
+      },
+      "Title": "College of Pharmacy",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_English",
+        "default": "../../images/family.jpg"
+
+      },
+      "Title": "College of English",
+      "Link": "#"
+    },
+    {
+      "BackgroundImage": {
+        "Class Name": "College_of_History",
+        "default": "../../images/library.jpg"
+
+      },
+      "Title": "College of History",
+      "Link": "#"
+    }
+
+
+    ]
+  }
+}

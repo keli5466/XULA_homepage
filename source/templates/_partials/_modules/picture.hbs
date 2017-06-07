@@ -1,0 +1,18 @@
+<noscript>
+  <img src="{{ srcset.default }}" alt="{{ alt }}">
+</noscript>
+<picture class="{{classes}}" role="presentation">
+  <?php // IE9 support http://scottjehl.github.io/picturefill/#ie9 ?>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source media="(min-width: 90em)" srcset="{{ srcset.xlarge }}">
+  <source media="(min-width: 75em)" srcset="{{ srcset.large }}">
+  <source media="(min-width: 53em)" srcset="{{ srcset.medium }}">
+  <source media="(min-width: 33em)" srcset="{{ srcset.small }}">
+  <!--[if IE 9]></video><![endif]-->
+
+  <!-- Removed to prevent images from not loading in safari on iOS
+  <img data-set="{{ srcset.default }}" alt="{{ alt }}" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="> -->
+
+  <img srcset="{{ srcset.default }}" alt="{{ alt }}">
+    <img srcset="{{ src}}" alt="{{ alt }}">
+</picture>

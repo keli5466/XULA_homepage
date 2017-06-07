@@ -1,0 +1,35 @@
+{{#if FullscreenImage.srcset.default}}
+  {{>picture FullscreenImage}}
+{{/if}}
+
+{{#if BackgroundImage.srcset.default}}
+  {{>picture BackgroundImage}}
+{{/if}}
+
+
+<section
+  class="{{#if HasFullscreenBackground}}hero--fullscreen{{else}}hero{{/if}} js--module-hero"
+>
+
+  {{#if Image.srcset.default}}
+    {{>picture Image}}
+  {{/if}}
+
+  <div class="hero__content">
+    {{#if TitleIsDisplayed}}
+      <h1>{{ Title }} <span> {{ Title2 }} </span></h1>
+
+    {{else}}
+      <h1 class="visuallyhidden">{{Title}}</h1>
+    {{/if}}
+
+    {{#if Text}}
+      <p>{{ Text }}</p>
+    {{/if}}
+
+    {{#if Link.href}}
+      <a href="{{ Link.href }}">{{ Link.text }}</a>
+    {{/if}}
+  </div>
+
+</section>

@@ -1,0 +1,42 @@
+{
+  "home": {
+    "Title": "LEAVE",
+    "Title2": "READY",
+    "TitleIsDisplayed": true,
+    "Link": {
+      "href": "",
+      "id": "",
+      "target": "",
+      "text": "Call to Action"
+    },
+    "HasFullscreenBackground": true,
+    "BackgroundImage": {
+      "Class Name": "main",
+      "default": "../../images/tmp/river-portrait.jpg",
+      "small": "../../images/tmp/ocean-square.jpg",
+      "medium": "../../images/tmp/river.jpg",
+      "large": "../../images/tmp/ocean.jpg",
+      "xlarge": "../../images/tmp/river.jpg"
+    },
+    "FullscreenImage": {
+      "classes": "hero",
+      "alt": "",
+      "src": "",
+      "srcset": {
+        "default": "../../images/home-hero.jpg"
+      }
+    },
+    "Image": {
+      "classes": "",
+      "alt": "",
+      "src": "",
+      "srcset": {
+        "default": "",
+        "small": "",
+        "medium": "",
+        "large": "",
+        "xlarge": ""
+      }
+    }
+  }
+}

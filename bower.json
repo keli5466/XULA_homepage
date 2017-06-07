@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cpbtechnology/boilerplate-frontend",
+  "authors": [
+    "Benjamin Sterling <benjamin.sterling@kenzomedia.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "extra-strength-responsive-grids": "https://github.com/dfcb/extra-strength-responsive-grids.git",
+    "requirejs": "~2.1.15",
+    "normalize-scss": "https://github.com/JohnAlbin/normalize-scss.git#4.0.3",
+    "compass-mixins": "jamesearl/compass-mixins#libsass-compat"
+  }
+}

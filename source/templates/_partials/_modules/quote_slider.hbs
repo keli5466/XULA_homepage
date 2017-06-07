@@ -1,0 +1,41 @@
+
+<section class="slider">
+	<div class="slide-viewer">
+		<div class="slide-group">
+
+			    {{#each Slide}}
+					<div class="slide ">
+						<h1 class="georgia heading-4">
+							{{Quote}}
+</h1>
+						<img class="icon" src="{{ Image.src }}" alt"{{ Image.alt }}"/>
+					</div>
+			    {{/each}}
+		</div>
+	</div>
+	<div class="slide-buttons"></div>
+</section>
+
+
+
+<!-- <section class="fullwidth quote-slider">
+	<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+			</li>
+			<li data-target="#quote-carousel" data-slide-to="1"></li>
+			<li data-target="#quote-carousel" data-slide-to="2"></li>
+	</ol>
+		<div class="carousel-inner">
+
+			    {{#each Slide}}
+					<div class="item">
+						<h1 class="georgia heading-4">
+							{{Quote}}
+</h1>
+
+					</div>
+			    {{/each}}
+		</div>
+	</div>
+</section> -->

@@ -1,0 +1,100 @@
+{
+	"Calender" : {
+		"Title": "Campus Calender",
+		"Title Hidden": false,
+		"Events": [
+			{
+				"Featured": true,
+				"Title": " Summer classes offically start",
+				"Date": "June 21st 2017",
+				"Day" : "01",
+				"BackgroundImage": {
+					"Class Name": "Event",
+					"default": "../../images/Pages/Home/XULA_students.jpg"
+				}
+			},
+			{
+				"Type": "normal",
+				"Title": " BET comes to campus.",
+				"Date": "June 21st 2017",
+				"Day" : "07",
+				"buttons": true,
+				"share_button":
+					 {
+						 "link" : "#",
+							"text": "Share",
+							"class": "clear",
+							"Image": {
+								"src": "../images/icons/share.svg",
+								"alt": ""
+							}
+						},
+						"comment_button":
+							 {
+								 "link" : "#",
+									"text": "Comment",
+									"class": "clear",
+									"Image": {
+										"src": "../images/icons/quotebox.svg",
+										"alt": ""
+									}
+								}
+			},
+			{
+				"Type": "normal",
+				"Title": "Summer classes end today.",
+				"Date": "June 21st 2017",
+				"Day" : "09",
+				"buttons": true,
+				"share_button":
+					 {
+						 "link" : "#",
+							"text": "Share",
+							"class": "clear",
+							"Image": {
+								"src": "../images/icons/share.svg",
+								"alt": ""
+							}
+						},
+						"comment_button":
+							 {
+								 "link" : "#",
+									"text": "Comment",
+									"class": "clear",
+									"Image": {
+										"src": "../images/icons/quotebox.svg",
+										"alt": ""
+									}
+								}
+			},
+			{
+				"Type": "normal",
+				"Title": " Early registration for classes.",
+				"Date": "June 21st 2017",
+				"Day" : "21",
+				"buttons": true,
+				"share_button":
+					 {
+						 "link" : "#",
+							"text": "Share",
+							"class": "clear",
+							"Image": {
+								"src": "../images/icons/share.svg",
+								"alt": ""
+							}
+						},
+						"comment_button":
+							 {
+								 "link" : "#",
+									"text": "Comment",
+									"class": "clear",
+									"Image": {
+										"src": "../images/icons/quotebox.svg",
+										"alt": ""
+									}
+								}
+			}
+
+		]
+ 	}
+}
