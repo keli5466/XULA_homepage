@@ -4,18 +4,18 @@
     "Title Hidden": true,
     "Headline": [
       {
-        "Title": "Find Your",
-        "Text": "FUTURE"
+        "Title": "Find your future.",
+        "Text": ""
       }
 
     ],
 "BackgroundImage": {
 	"Class Name": "find_your_future",
 	"default": "../../images/icons/1-black-docs.svg",
-	"small": "google.com",
-	"medium": "../../images/tmp/river.jpg",
-	"large": "../../images/tmp/ocean.jpg",
-	"xlarge": "../../images/tmp/river.jpg"
+	"small": "../../images/icons/1-black-docs.svg",
+	"medium": "../../images/icons/1-black-docs.svg",
+	"large": "../../images/icons/1-black-docs.svg",
+	"xlarge": "../../images/icons/1-black-docs.svg"
 },
 
         "Content": [

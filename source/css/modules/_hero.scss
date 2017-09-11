@@ -9,14 +9,13 @@
 
 	h1 {
 		color: white ;
-		font-size: 5em;
+		// font-size: 5em;
 
-		line-height: 1;
+		// line-height: 1;
 		text-transform: uppercase;
 
 		span {
 			display: block;
-
 			&:nth-child(2) {
 				color: $gold;
 			}
@@ -118,7 +117,7 @@
   }
 
   h1 {
-    @include heading-1();
+    // @include heading-2();
     //
     // text-shadow: $text-shadow;
   }

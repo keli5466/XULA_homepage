@@ -1,4 +1,23 @@
-<style>
-  .{{[Class Name]}} { background-image: url({{ this.default }}) }
 
+<style>
+  .{{[Class Name]}} { background: url({{ this.default }}) no-repeat}
+
+  @media (min-width:33em) {
+    .{{[Class Name]}} { background: url({{ this.small  }}) no-repeat}}
+
+  @media (min-width:53em) {
+    .{{[Class Name]}} { background: url({{ this.medium }}) no-repeat}}
+
+  @media (min-width:75em) {
+    .{{[Class Name]}} { background: url({{ this.large  }})no-repeat }}
+
+  @media (min-width:90em) {
+    .{{[Class Name]}} { background: url({{ this.xlarge }})no-repeat }}
+
+  {{#if HasFullscreenBackground}}
+    @media (min-width:53em) {
+      .main,
+      .challenges,
+      .related-links { background-position: center center; }}
+  {{/if}}
 </style>

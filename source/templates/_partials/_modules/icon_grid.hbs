@@ -3,20 +3,22 @@
 
     {{#each Blurb}}
       <figure class="icon">
+        <div class="icon_box">
 
-        <img class="icon" src="{{ Image.src }}" alt"{{ Image.alt }}"/>
 
+        <img class="icon_img" src="{{ Image.src }}" alt"{{ Image.alt }}"/>
+</div>
         <figcaption>
           <h2 class="heading-6"> <strong>{{ Title}}</strong></h2>
           <p >{{ Text }}</p>
 
-          {{#if Link.href}}
-            <a class="icon_grid_button georgia" href="{{ Link.href }}" id="{{ Link.id }}" data-text="{{ Link.text }}"
-            target="{{ Link.target }}">{{ Link.text }}</a>
-          {{/if}}
+
 
         </figcaption>
-
+        {{#if Link.href}}
+          <a class="icon_grid_button georgia" href="{{ Link.href }}" id="{{ Link.id }}" data-text="{{ Link.text }}"
+          target="{{ Link.target }}">{{ Link.text }}</a>
+        {{/if}}
       </figure>
     {{/each}}
 

@@ -1,10 +1,13 @@
 
 @mixin bp($point, $min: false, $max: false) {
 	@if $point == desktop {
-		@media (min-width: 1200px) { @content; }
+		@media (min-width: 1300px) { @content; }
 	}
 	@else if $point == tablet {
-		@media(min-width: 630px) and (max-width: 1200px) { @content; }
+		@media(min-width: 630px) and (max-width: 1024px) { @content; }
+	}
+	@else if $point == desktop-tablet {
+			@media(min-width: 1024px)  { @content; }
 	}
 	@else if $point == mediumLandscape{
 		@media (min-width: 630px) and (max-width: 1075px) and (orientation: landscape) { @content; }
@@ -13,7 +16,7 @@
 		@media (max-width: 630px)  { @content; }
 	}
 	@else if $point == phone-tablet {
-		@media (max-width: 1200px)  { @content; }
+		@media (max-width: 1023px)  { @content; }
 	}
 	@else if $point == smallLandscape{
 		@media (max-width: 630px) and (orientation: landscape) { @content; }

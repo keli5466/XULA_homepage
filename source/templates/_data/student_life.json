@@ -5,6 +5,14 @@
     "TitleIsDisplayed": false,
     "Heading": "Be a part of the process",
     "HeaderCopy": "Your gift, no matter how large or small, makes a difference to XULA’s students today and tomorrow.",
+    "BackgroundImage": {
+      "Class Name": "hello",
+      "default": "../../images/students.jpg",
+      "small": "../../images/students.jpg",
+      "medium": "../../images/students.jpg",
+      "large": "../../images/students.jpg",
+      "xlarge": "../../images/students.jpg"
+    },
     "button": {
 			"link" : "#",
 "text": "give now",
@@ -19,7 +27,7 @@
           "Text": "Once an Xavierite, always an Xavierite. When you’re here,campus is home and our community is family.",
 
 					"Image": {
-						"src": "../images/icons/notebook.svg",
+						"src": "../images/icons/student_life.svg",
 						"alt": ""
 					},
           "Link":  {
@@ -34,7 +42,7 @@
           "Text": "It doesn’t take Ivy League tuition to get an Ivy League education. Chances are, there’s a place for you to thrive here.",
 
 					"Image": {
-						"src": "../images/icons/notebook.svg",
+						"src": "../images/icons/admissions.svg",
 						"alt": ""
 					},
           "Link":  {
@@ -49,7 +57,7 @@
           "Text": "Our standards are high, but so is our level of support. XULA educators are devoted to helping each student find success.",
 
 					"Image": {
-						"src": "../images/icons/notebook.svg",
+						"src": "../images/icons/academics.svg",
 						"alt": ""
 					},
           "Link":  {
@@ -61,10 +69,10 @@
 				},
         {
           "Title": "athletics",
-          "Text": "From baseball to basketball, tennis to track-and-field, XULA blood pumps gold and green.",
+          "Text": "From baseball to basketball, tennis to track-and-field, XULA blood pumps Gold and White.",
 
 					"Image": {
-						"src": "../images/icons/notebook.svg",
+						"src": "../images/icons/athletics.svg",
 						"alt": ""
 					},
           "Link":  {

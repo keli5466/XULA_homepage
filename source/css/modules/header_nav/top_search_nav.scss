@@ -1,0 +1,88 @@
+
+
+
+.top-header {
+	@include mq($S){
+		display: none;
+	}
+	@include mq($M){
+		display: block;
+	}
+	background-color: $gold;
+	height: 3em;
+	font-size: .9em;
+	position: relative;
+	.topnav-bar {
+		// padding: 0.625em 0;
+		width: 100%;
+		text-align: right;
+
+		nav {
+			right: 0;
+			@extend .center-vertically;
+			li {
+				// line-height: 2em;
+			}
+		}
+	}
+
+	.right_bar {
+		position: relative;
+
+		&:after {
+			content: "";
+			display: block;
+			width: .1em;
+			height: 60%;
+			transform: translate(-50%, -50%);
+			background: black;
+			position: absolute;
+			top: 50%;
+			vertical-align: middle;
+			right: 0;
+		}
+	}
+
+	a {
+		color: black;
+
+		font-weight: bold;
+		padding: 0em 1.5em;
+		text-transform: uppercase;
+		line-height: 2;
+		letter-spacing: 0.3em;
+
+	}
+
+}
+
+.search-wrap {
+	background-color: #ffc000;
+	form {
+		width: 100%;
+	}
+	input {
+		background-color: #ffc000;
+		border: none;
+		outline: none;
+		color: green;
+		text-align: right;
+		height : 3em;
+		width: 95%;
+		font-size: 1em;
+		outline: none;
+		font-family: Georgia;
+		font-style: italic;
+	}
+	}
+	::placeholder {
+		color: white;
+	}
+
+
+.toggle-search {
+	color: white !important;
+	text-decoration: none;
+	// font-size: 2em;
+	text-transform: uppercase;
+}

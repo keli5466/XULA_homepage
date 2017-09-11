@@ -1,0 +1,22 @@
+.walls{
+  .myheader {
+      @extend .grid;
+    background-color: black;
+    color: white;
+
+    &__title{
+      border-right: .15em solid white;
+      border-left: .15em solid white;
+      float:left;
+      @extend .col-1-3
+    }
+    &__text{
+      float:left;
+      @extend .col-1-3
+    }
+    &--uppercase{
+      @extend .uppercase
+    }
+  }
+
+}

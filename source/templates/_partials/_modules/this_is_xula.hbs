@@ -1,4 +1,4 @@
-<section class="this-is-xula grid container">
+<section class="this-is-xula grid container padding">
 <div class="col-1-2">
       {{>headline this.this_is_XULA}}
 
@@ -6,15 +6,18 @@
 
 <div class="content">
 	{{#each this_is_XULA.[Content]}}
-			<h5 class="georgia heading-5">   {{ subline }} </h5>
+			<h2 class="georgia heading-5">   {{ subline }} </h2>
 			<br>
-			<h6 class="heading-6">{{ copy }}</h6>
-	{{/each}}
+			<h3 class="heading-6">{{ copy }}</h3>
 
+	{{/each}}
+  <br>
+  <br>
+{{>button this_is_XULA.button}}
   </div>
 </div>
 <div class="col-1-2">
     {{>icon_grid this_is_XULA.Icon_Grid}}
-    {{>button this_is_XULA.button}}
+
   </div>
 </section>

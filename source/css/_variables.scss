@@ -35,17 +35,23 @@ Other
 
 // Breakpoints
 // NOTE: When updating make sure to sync with JS variables (/source/js/apps/master/app.js)
-$breakpoint-s: 33rem; // *16 = 528
-$breakpoint-m: 53rem; // *16 = 848
-$breakpoint-l: 75rem; // *16 = 1200
+$breakpoint-s: 20rem; // *16 = 528
+$breakpoint-m: 48rem; // *16 = 768
+$breakpoint-l: 64rem; // *16 = 1024
 $breakpoint-xl:90rem; // *16 = 1440
 
 
 // Media Queries
-$S: 'min-width:'+ $breakpoint-s;
-$M: 'min-width:'+ $breakpoint-m;
-$L: 'min-width:'+ $breakpoint-l;
-$XL:'min-width:'+ $breakpoint-xl;
+// $S: 'min-width:'+ $breakpoint-s;
+// $M: 'min-width:'+ $breakpoint-m;
+// $L: 'min-width:'+ $breakpoint-l;
+// $XL:'min-width:'+ $breakpoint-xl;
+// Media Queries
+//                 strip REM units and go back to EMs for media queries
+$S: 'min-width:'+ (strip-units($breakpoint-s) +em);
+$M: 'min-width:'+ (strip-units($breakpoint-m) +em);
+$L: 'min-width:'+ (strip-units($breakpoint-l) +em);
+$XL:'min-width:'+ (strip-units($breakpoint-xl)+em);
 
 // Color Pallete
 $white: #fff;
@@ -60,15 +66,15 @@ $font-size-base: 1rem; // Use browser default font-size, usually 16px
 
 // Font Size Variables
 //   Dependant on get-multiplier()
-$font-size-1: get-multiplier(72, $font-size-base) + 0em; // 72px
-$font-size-2: get-multiplier(48, $font-size-base) + 0em; // 48px
-$font-size-3: get-multiplier(36, $font-size-base) + 0em; // 36px
-$font-size-4: get-multiplier(28, $font-size-base) + 0em; // 28px
-$font-size-5: get-multiplier(24, $font-size-base) + 0em; // 24px
+$font-size-1: get-multiplier(80, $font-size-base) + 0em; // 72px
+$font-size-2: get-multiplier(60, $font-size-base) + 0em; // 48px
+$font-size-3: get-multiplier(45, $font-size-base) + 0em; // 36px
+$font-size-4: get-multiplier(35, $font-size-base) + 0em; // 28px
+$font-size-5: get-multiplier(25, $font-size-base) + 0em; // 24px
 $font-size-6: get-multiplier(20, $font-size-base) + 0em; // 20px
 $font-size-7: get-multiplier(18, $font-size-base) + 0em; // 18px
 $font-size-8: $font-size-base;                            // 16px
-$font-size-9: get-multiplier(14, $font-size-base) + 0em; // 14px
+$font-size-9: get-multiplier(15, $font-size-base) + 0em; // 14px
 $font-size-10:get-multiplier(12, $font-size-base) + 0em; // 12px
 
 

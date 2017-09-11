@@ -1,12 +1,18 @@
 {
   "Featured_Staff": {
-    "Title": "Alumni Hover Leave Readu",
+    "Title": "FEATURED FACULTY ",
     "Title Hidden": true,
+    "accord": "Faculty & Staff",
+    "search_input":"",
     "Staff": [
       {
       "BackgroundImage": {
         "Class Name": "renne_akbar",
-        "default": "../../images/Pages/Home/renne_akbar.jpg"
+        "default": "../../images/Pages/Home/renne_akbar.jpg",
+        "small": "../../images/Pages/Home/renne_akbar.jpg",
+        "medium": "../../images/Pages/Home/renne_akbar.jpg",
+        "large": "../../images/Pages/Home/renne_akbar.jpg",
+        "xlarge": "../../images/Pages/Home/renne_akbar.jpg"
 
       },
       "Name": "dr.Renee akbar",
@@ -17,7 +23,11 @@
 		{
 		"BackgroundImage": {
 			"Class Name": "ron_bechet",
-			"default": "../../images/Pages/Home/ron_bechet.jpg"
+			"default": "../../images/Pages/Home/ron_bechet.jpg",
+      "small": "../../images/Pages/Home/ron_bechet.jpg",
+      "medium": "../../images/Pages/Home/ron_bechet.jpg",
+      "large": "../../images/Pages/Home/ron_bechet.jpg",
+      "xlarge": "../../images/Pages/Home/ron_bechet.jpg"
 
 		},
 		"Name": " MR. RON BECHET",
@@ -28,7 +38,11 @@
 	{
 	"BackgroundImage": {
 		"Class Name": "renne_akbar",
-		"default": "../../images/Pages/Home/renne_akbar.jpg"
+		"default": "../../images/Pages/Home/renne_akbar.jpg",
+    "small": "../../images/Pages/Home/renne_akbar.jpg",
+    "medium": "../../images/Pages/Home/renne_akbar.jpg",
+    "large": "../../images/Pages/Home/renne_akbar.jpg",
+    "xlarge": "../../images/Pages/Home/renne_akbar.jpg"
 
 	},
 	"Name": "DR. TIMOTHY TURNER",

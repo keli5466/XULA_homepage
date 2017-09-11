@@ -1,4 +1,4 @@
-// see http://eslint.org/docs/rules/
+
 {
   "rules": {
     "no-alert": 1,
@@ -31,5 +31,10 @@
     "func-style": [2, "expression"],
     "id-length": [2, {"min": 3, "max": 30, "properties": "always", "exceptions": ["$", "_", "YT"]}],
     "indent": [2, 2, {"VariableDeclarator": 2}]
-  }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery":true
+}
 }

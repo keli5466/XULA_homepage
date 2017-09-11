@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         '!' + config.js + '/libs/*.*'
       ],
       tasks: [
-        'eslint',
+      
         'requirejs:dev',
         'jquery',
         'browserSync-inject-js'

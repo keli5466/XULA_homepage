@@ -1,6 +1,12 @@
 
-<section class="section featured-box">
-				<div class="container">
+<section class="section featured-box container">
+	{{>search_bar}}
+	{{>accordian}}
+	<div class="Title heading-6">
+	{{Title}}
+</div>
+	<div class="wrapper">
+
 					{{#each Staff}}
 	 		<div class="featured">
 
@@ -28,7 +34,8 @@
  </div>
 </div>
 {{/each}}
-
+</div>
+</section>
 	 			<!-- <div class="featured">
 					<div class="staff_img">
 		 					<div class="featuredimg">

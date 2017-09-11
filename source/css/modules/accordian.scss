@@ -1,0 +1,55 @@
+
+button.accordion {
+    background-color: white;
+    // color: #444;
+    // cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+		font-weight: bold;
+    text-transform: uppercase;
+		letter-spacing: 0.1em;
+    // font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    // background-color: #ddd;
+		outline: none;
+}
+
+button.accordion:after {
+    content: '\f0d7';
+    color: black;
+    font-weight: bold;
+		    font-family: FontAwesome;
+    // float: right;
+		font-size: 20px;
+    margin-left: 1em;
+}
+
+button.accordion.active:after {
+    content: "\f0d8";
+
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    display: flex;
+    justify-content: space-between;
+
+		margin: 0 auto;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+		.column{
+			padding: 1em;
+      flex-grow: 1;
+			h1{
+				margin-bottom: 1em;
+			}
+		}
+}

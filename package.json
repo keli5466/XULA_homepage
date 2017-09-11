@@ -17,6 +17,11 @@
     "browser-sync": "^2.11.1",
     "bs-html-injector": "^3.0.0",
     "cssnano": "^3.5.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.3.0",
     "grunt": "0.4.5",
     "grunt-assemble": "^0.4.0",
     "grunt-banner": "^0.6.0",
@@ -44,13 +49,17 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.11.2",
     "pixrem": "^3.0.0",
+    "requirejs": "^2.3.3",
     "rjs-build-analysis": "0.0.3",
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0",
+    "stylelint": "7.9.0",
+    "stylelint-config-standard": "16.0.0",
+    "stylelint-order": "0.4.4",
+    "stylelint-scss": "1.4.4",
     "swag": "0.7.0",
     "time-grunt": "1.2.2"
   },
   "dependencies": {
+    "requirejs": "^2.3.3",
     "sass-breakpoints": "^2.1.0",
     "uuid": "^3.0.1"
   }

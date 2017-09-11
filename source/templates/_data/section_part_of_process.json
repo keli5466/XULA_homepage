@@ -3,7 +3,7 @@
     "Id": "{0f9f77f7-ad69-435b-9762-354422cd2e9c}",
     "Title": "XULA Facts",
     "TitleIsDisplayed": false,
-    "Heading": "Be a part of the process",
+    "Heading": "Be a part of the process.",
     "HeaderCopy": "Your gift, no matter how large or small, makes a difference to XULA’s students today and tomorrow.",
     "button": {
 			"link" : "#",
@@ -39,9 +39,17 @@
       "target": "",
       "text": "Lorem Ipsum"
     },
-		"Image": {
-			"src": "../images/cutouts/xula-fb-doc.png",
-			"alt": ""
-		}
+    "Image": {
+      "classes": "",
+      "alt": "",
+      "src": "",
+      "srcset": {
+        "default": "../images/cutouts/xula-fb-doc.png",
+        "small": "",
+        "medium": "",
+        "large": "",
+        "xlarge": ""
+      }
+    }
   }
 }

@@ -1,20 +1,20 @@
 .main-footer {
 
-	background: #1c1c1c;
+	background: black;
 	color: $nav;
 	width: 100%;
 	position: relative;
 	padding: 2em 0 5em;
-	@include bp(phone) {
-		padding: 1em 0 0;
-	}
+	// @include bp(phone) {
+	// 	padding: 1em 0 0;
+	// }
 
 	.container {
 		padding: 2em 2em;
 
-		@include bp(phone-tablet) {
-			padding: 1em 0;
-		}
+		// @include bp(phone-tablet) {
+		// 	padding: 1em 0;
+		// }
 	}
 
 
@@ -202,13 +202,14 @@
 	.yellowbar {
 		background-color: $gold;
 		position: absolute;
+					height: 4em;
 
 		li {
 			text-transform: uppercase;
 
 			padding: .1em 1.5em;
 			font-weight: bold;
-			letter-spacing: .2em;
+			letter-spacing: .1em;
 			line-height: 2;
 
 			@include bp(phone-tablet) {
@@ -223,12 +224,15 @@
 
 		&:nth-child(1) {
 			left: 0;
-			height: 2em;
+
 			top: -2em;
 			width: 80%;
 
 			ul {
 				float: right;
+				// @include align(90%,50%);
+				@extend .center-vertically;
+				right: 0;
 				padding-right: 5%;
 			}
 		}
@@ -237,6 +241,9 @@
 			right: 0;
 			width: 90%;
 			bottom: 0;
+			ul{
+						@extend .center-vertically;
+			}
 
 			@include bp(phone) {
 				display: none;

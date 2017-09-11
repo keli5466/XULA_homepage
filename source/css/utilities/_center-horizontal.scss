@@ -1,0 +1,10 @@
+
+%center-horizontal {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.center-horizontal {
+  @extend %center-horizontal;
+}

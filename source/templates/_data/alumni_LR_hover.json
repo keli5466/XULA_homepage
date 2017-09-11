@@ -6,7 +6,11 @@
       {
       "BackgroundImage": {
         "Class Name": "Alumni_1",
-        "default": "../../images/Pages/Home/judge1.jpg"
+        "default": "../../images/Pages/Home/judge1.jpg",
+        "small": "../../images/Pages/Home/judge1.jpg",
+        "medium": "../../images/Pages/Home/judge1.jpg",
+        "large": "../../images/Pages/Home/judge1.jpg",
+        "xlarge": "../../images/Pages/Home/judge1.jpg"
 
       },
       "Title": "I am a leader.",
@@ -19,7 +23,11 @@
     {
     "BackgroundImage": {
       "Class Name": "Alumni_2",
-      "default": "../../images/Pages/Home/guy.jpg"
+      "default": "../../images/Pages/Home/guy.jpg",
+      "small": "../../images/Pages/Home/guy.jpg",
+      "medium": "../../images/Pages/Home/guy.jpg",
+      "large": "../../images/Pages/Home/guy.jpg",
+      "xlarge": "../../images/Pages/Home/guy.jpg"
 
     },
     "Title": "I am a leader.",
@@ -32,7 +40,11 @@
   {
   "BackgroundImage": {
     "Class Name": "Alumni_3",
-    "default": "../../images/Pages/Home/doc.jpg"
+    "default": "../../images/Pages/Home/doc.jpg",
+    "small": "../../images/Pages/Home/doc.jpg",
+    "medium": "../../images/Pages/Home/doc.jpg",
+    "large": "../../images/Pages/Home/doc.jpg",
+    "xlarge": "../../images/Pages/Home/doc.jpg"
 
   },
   "Title": "I am a leader.",
@@ -45,7 +57,11 @@
   {
   "BackgroundImage": {
     "Class Name": "Alumni_4",
-    "default": "../../images/Pages/Home/guy1.jpg"
+    "default": "../../images/Pages/Home/guy1.jpg",
+    "small": "../../images/Pages/Home/guy1.jpg",
+    "medium": "../../images/Pages/Home/guy1.jpg",
+    "large": "../../images/Pages/Home/guy1.jpg",
+    "xlarge": "../../images/Pages/Home/guy1.jpg"
 
   },
   "Title": "I am a leader.",

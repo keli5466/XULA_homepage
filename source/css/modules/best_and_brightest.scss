@@ -3,17 +3,30 @@
 	.container {
 		position: relative;
 		flex-flow: column;
+			@include bp(phone){
+					height: 85vh;
+				}
+
+
 
 
 
 img.cutout  {
+
 		margin-top: -3em;
 		text-align: right;
 		// position: absolute;
 		// bottom: 0;
 		// left: 0;
 		width: 30%;
+
+@include bp(phone){
+			width: 80%;
+			text-align: center;
+			margin: -1em auto;
+
 	}
+}
 
 	h2,
 	h5 {
@@ -21,12 +34,19 @@ img.cutout  {
 	}
 
 	.wrap {
+
 		text-align: right;
 		position: absolute;
 		bottom: 0;
 		right: 0;
 		width: 70%;
 		padding: 5%;
+
+		@include bp(phone){
+			width: 100%;
+			text-align: center;
+			padding: 2%;
+		}
 	}
 }
 }

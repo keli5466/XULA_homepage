@@ -1,0 +1,29 @@
+.search{
+	width: 100%;
+	margin-top: 2em;
+input.searchbar {
+    border: none;
+    // padding: 1% 0%;
+		outline: none;
+		width:95%;line-height: 4em;
+    border-bottom: black solid 2px;
+}
+input::placeholder {
+  color: black;
+  
+	@extend .heading-6;
+	font-weight: 200;
+
+}
+button.searchbutton {
+    background-color: #ffc530;
+    border: none;
+    padding: .4em;
+		height: 4em;
+		width: 4em;
+		float: right;
+		outline: none;
+
+
+}
+}

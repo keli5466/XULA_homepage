@@ -20,12 +20,18 @@
 		.event {
 			font-size: 1.2em;
 			border: none;
-			padding: 5em;
+			@include mq($M){
+				padding: 5em;
+			}
+
+			@include mq($S){
+				padding: 2em;
+			}
 		}
 
 		.bar {
 			background-color: $gold;
-			width: 50%;
+		
 			position: absolute;
 			bottom: -1.5em;
 			color: black;
@@ -37,6 +43,12 @@
 			line-height: 3em;
 			font-weight: bold;
 			padding: 1em 4em;
+			@include mq($S){
+				width: 90%;
+			}
+			@include mq($M){
+				width: 50%;
+			}
 		}
 	}
 

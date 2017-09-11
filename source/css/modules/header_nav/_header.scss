@@ -1,0 +1,146 @@
+
+// @include bp(phone-tablet){
+// .menu ,
+//  .top-header {
+// 	display: none;
+// }
+// }
+.main-header {
+	background-color: black;
+	// font-size: 1rem;
+	position: relative;
+	@include mq($M){
+		height: 8em;
+	}
+	// width: 100vw;
+	@include mq($S){
+		height: 7em;
+	}
+  &__logo{
+    @include align(5%,50%);
+		@include mq($L){
+					height: 5em;
+		}
+		@include mq($S){
+			height: 4em;
+		}
+		@include mq($M){
+			height: 4.5em;
+
+		}
+
+  }
+
+@include bp(phone-tablet){
+	.menu{
+		display: none;
+	}
+}
+
+
+
+.menu{
+		// padding: 1.5em 0;
+
+	ul {
+		display: inline-block;
+		@extend .center-vertically;
+		right: 0;
+		// padding: 2.5em 0em;
+		// height: 8em;
+
+		margin: 0;
+
+		li {
+			display: inline-block;
+			list-style: none;
+			margin: 0;
+			a {
+				@include mq($S){
+					height: 4em;
+				}
+				@include mq($M){
+					font-size: 1.4em;
+					padding: 0 .5em;
+
+				}
+				@include mq($L){
+					font-size: 1.5em;
+					padding: 0em .9em;
+				}
+				color: white;
+				// opacity: 0.8;
+				// line-height: 4em;
+				// font-size: 20px;
+				// letter-spacing: 2px;
+
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+}
+
+// }
+
+// @include mq($L){
+// 	#mobile_overlay,.mobile_tablet_menu {
+// 		visibility: hidden;
+// 	}
+// }
+
+// //
+//
+// #mobile_overlay {
+// 	width: 100%;
+// 	background: rgba(0, 0, 0, 0.498039);
+// 	// min-height: 50em;
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	visibility: hidden;
+// 	bottom: 0;
+//
+// }
+// .mobile_tablet_menu {
+// 	font-size: 1em;
+//
+// 	.icon-menu {
+// 		right: 0;
+// 		&:before {
+// content: "\f0c9";
+// // content: "\f00d";
+// 			}
+// 	}
+// 	icon-menu.on{
+// 		content: "\f00d";
+// 	}
+// .icon-menu.on:before {
+// content: "\f00d";
+// // content: "\f0c9";
+//
+// }
+// .icon-search {
+// 	// top: 0;
+// 	right: 4.1em;
+// 	// &:before {
+// 	// 	// content: "\f002";
+// 	// }
+//
+// }
+// [class*="icon-"] {
+// 	color: white;
+// 	height: 4em;
+// 	width: 4em;
+// 	z-index: 20;
+// 	line-height: 4em;
+// 	text-align: center;
+// 	font-family: FontAwesome;
+// 	background: #1c1c1c;
+// 	position: absolute;
+//
+//
+//

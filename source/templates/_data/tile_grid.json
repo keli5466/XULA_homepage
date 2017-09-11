@@ -1,12 +1,16 @@
 {
   "Tile_Grid": {
-    "Title": "XULA facts",
+    "Title": "XULA_College Grid",
     "Title Hidden": true,
     "Tile": [
       {
       "BackgroundImage": {
         "Class Name": "College_of_Arts",
-        "default": "../../images/track.jpg"
+        "default": "../../images/track.jpg",
+        "small": "../../images/track.jpg",
+        "medium": "../../images/track.jpg",
+        "large": "../../images/track.jpg",
+        "xlarge": "../../images/track.jpg"
 
       },
       "Title": "College of Arts ",
@@ -15,7 +19,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_Scienc",
-        "default": "../../images/church.jpg"
+        "default": "../../images/church.jpg",
+        "small": "../../images/church.jpg",
+        "medium": "../../images/church.jpg",
+        "large": "../../images/church.jpg",
+        "xlarge": "../../images/church.jpg"
 
       },
       "Title": "College of Science",
@@ -24,7 +32,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_Math",
-        "default": "../../images/cheer.jpg"
+        "default": "../../images/cheer.jpg",
+        "small": "../../images/cheer.jpg",
+        "medium": "../../images/cheer.jpg",
+        "large": "../../images/cheer.jpg",
+        "xlarge": "../../images/cheer.jpg"
 
       },
       "Title": "College of Math",
@@ -33,7 +45,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_Biology ",
-        "default": "../../images/grad.jpg"
+        "default": "../../images/grad.jpg",
+        "small": "../../images/grad.jpg",
+        "medium": "../../images/grad.jpg",
+        "large": "../../images/grad.jpg",
+        "xlarge": "../../images/grad.jpg"
 
       },
       "Title": "College of Biology  ",
@@ -43,7 +59,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_Music",
-        "default": "../../images/study.jpg"
+        "default": "../../images/study.jpg",
+        "small": "../../images/study.jpg",
+        "medium": "../../images/study.jpg",
+        "large": "../../images/study.jpg",
+        "xlarge": "../../images/study.jpg"
 
       },
       "Title": "College of Music ",
@@ -52,7 +72,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_Pharmacy",
-        "default": "../../images/pharm.jpg"
+        "default": "../../images/pharm.jpg",
+        "small": "../../images/pharm.jpg",
+        "medium": "../../images/pharm.jpg",
+        "large": "../../images/pharm.jpg",
+        "xlarge": "../../images/pharm.jpg"
 
       },
       "Title": "College of Pharmacy",
@@ -61,7 +85,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_English",
-        "default": "../../images/family.jpg"
+        "default": "../../images/family.jpg",
+        "small": "../../images/family.jpg",
+        "medium": "../../images/family.jpg",
+        "large": "../../images/family.jpg",
+        "xlarge": "../../images/family.jpg"
 
       },
       "Title": "College of English",
@@ -70,7 +98,11 @@
     {
       "BackgroundImage": {
         "Class Name": "College_of_History",
-        "default": "../../images/library.jpg"
+        "default": "../../images/library.jpg",
+        "small": "../../images/library.jpg",
+        "medium": "../../images/library.jpg",
+        "large": "../../images/library.jpg",
+        "xlarge": "../../images/library.jpg"
 
       },
       "Title": "College of History",

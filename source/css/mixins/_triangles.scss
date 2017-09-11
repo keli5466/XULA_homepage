@@ -87,22 +87,3 @@
 }
 }
 }
-
-@mixin line( $size, $color, $side:line ) {
-	&:before {
-		content: "";
-		width: 0;
-		height: 0;
-		top:0;
-		display: block;
-		position: absolute;
-		@if $side == line {
-			border-top: 1;
-			border-left: 1px solid $color;
-			left: 50%;
-			top: 100%;
-			transform: translate(-50%, 0%);
-			height: $size;
-	}
-}
-}

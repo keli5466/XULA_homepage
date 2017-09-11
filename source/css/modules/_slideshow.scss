@@ -1,0 +1,96 @@
+.slideshow-container {
+  // max-width: 1000px;
+  position: relative;
+  // margin: auto;
+  height: 80vh;
+  width: 100%;
+  .dots{
+    display: inline-block;
+    margin-left: 2em;
+  .dot {
+  cursor:pointer;
+  height: .7em;
+  width: .7em;
+  margin: 0 .5em;
+  // margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: $gold;
+}
+}
+
+.active, .dot:hover {
+  background-color: $gold;
+}
+
+  .hero-slide{
+    background-image: url('../../images/slider_img.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .slideheadline {
+      position: absolute;
+      font-weight: bold;
+      width: 70%;
+      text-decoration: underline;
+      float:left;
+      line-height: 1.2em;
+      bottom: 30%;
+      left:10%;
+      color: white;
+    }
+
+  }
+  .slide_buttons{
+    display: inline-block;
+    .button_box{
+        background-color: white;
+      display: inline-block;
+      width: 2em;
+    }
+
+    position: absolute;
+    bottom: 20%;
+    left:10%;
+    .icon{
+
+    }
+
+  .prev, .next {
+
+    color: black;
+  cursor: pointer;
+  // position: absolute;
+  // top: 10%;
+  // width: auto;
+  // margin: 0 auto;
+  padding: 0 .3em;
+
+  // padding: 16px;
+  // margin-top: -22px;
+  // color: white;
+  // font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+  transition: 0.6s ease;
+  // border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  // right: 0;
+  // border-radius: 3px 0 0 3px;
+}
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  // background-color: rgba(0,0,0,0.8);
+}
+
+}

@@ -1,11 +1,11 @@
 
 {
-    "Title": "This is XULA",
+    "Title": "This is XULA.",
     "Title Hidden": true,
     "Headline": [
       {
         "Title": "This is",
-        "Text": "XULA"
+        "Text": "XULA."
       }
 
     ],
@@ -29,6 +29,7 @@
           "Blurb": [
             {
               "Image": {
+
                 "src": "../images/icons/primelocation.svg",
                 "alt": ""
               },

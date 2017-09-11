@@ -1,13 +1,23 @@
 .featured-box {
-	.container {
+	.wrapper {
 		display: block;
+	}
+	.title{
+		font-weight: bold;
+		margin: 1em auto;
 	}
 
 	.featured {
 
 
 		&:nth-child(1) {
-			width: 66.66%;
+
+				width: 66.66%;
+
+
+			@include bp(phone){
+				width: 100%;
+			}
 			background-color: $gold;
 			padding: 0;
 			float: left;
@@ -24,7 +34,13 @@
 	}
 
 		&:nth-child(2) {
-			width: 33.33%;
+
+
+				width: 33.33%;
+
+		@include bp(phone){
+				width: 100%;
+			}
 			float: right;
 			padding: 0;
 			// background-color: $grey1;
@@ -37,7 +53,13 @@
 		}
 
 		&:nth-child(3) {
-			width: 66.66%;
+
+				width: 66.66%;
+
+			@include bp(phone){
+				width: 100%;
+			}
+
 			background-color: $grey1;
 			padding: 0;
 			float: left;
@@ -98,7 +120,12 @@
 	}
 
 	.staff_info {
+
 padding: 2em;
+
+@include bp(phone){
+	padding: 1em;
+}
 	}
 
 	.featuredimg {
@@ -111,9 +138,9 @@ padding: 2em;
 		background-size: cover;
 		background-repeat: no-repeat;
 
-		@include bp(tablet) {
-			height: 30vh;
-		}
+		// @include bp(tablet) {
+		// 	height: 30vh;
+		// }
 
 	}
 

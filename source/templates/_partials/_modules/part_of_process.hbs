@@ -2,10 +2,10 @@
 
 
 <div class="XULA_facts">
-  <ul class="facts grid">
+  <ul class="facts grid container">
     {{#each Contacts}}
     <li class="col-1-4">
-      <h1 class="heading-6">{{{ Contact.Name }}}</h1><br>
+      <h1 class="heading-7">{{{ Contact.Name }}}</h1><br>
     </li>
     {{/each}}
   </ul>
@@ -13,12 +13,13 @@
 
 <div class="grid">
   <div class="col-1-2">
-  		{{>picture [Image]}}
+    {{>picture Image}}
+
 </div>
 <div class="col-1-2">
-  <h2 class="heading-2 georgia">{{ Heading }}</h2>
-  <div class="col-2-3">
-    <h5 class="heading-5">{{ HeaderCopy }}</h5>
+  <h2 class="heading-2">{{ Heading }}</h2>
+  <div class="col-3-4">
+    <h5 class="heading-5 georgia">{{ HeaderCopy }}</h5>
   </div>
 <br>
 <br>

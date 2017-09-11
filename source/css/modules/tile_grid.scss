@@ -1,7 +1,7 @@
 .tile-grid {
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: space-around;
 
 	.tile {
 		position: relative;
@@ -12,6 +12,12 @@
 		background-size: cover;
 		margin-bottom: 1em;
 		background-position: center;
+		@include mq($S){
+			width: 45%;
+		}
+		@include mq($M){
+			width: 24%;
+		}
 
 		&:hover {
 			filter: grayscale(0%);

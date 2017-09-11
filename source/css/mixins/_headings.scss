@@ -1,16 +1,16 @@
 @mixin heading-1() { // 72 : 80
   // @include font-helvetica-neue-condenced-black();
 
-  font-size: $font-size-1 *0.8;
-  @include mq($S) { font-size: $font-size-1 *0.9; }
-  @include mq($M) { font-size: $font-size-1; }
+  font-size: $font-size-1;
+  // @include mq($S) { font-size: $font-size-1 *0.9; }
+  // @include mq($M) { font-size: $font-size-1; }
   font-weight: normal;
   line-height: get-multiplier(80, $font-size-1);
 }
 
 @mixin heading-2() { // 48 : 54
-  font-size: $font-size-2 *0.9;
-  @include mq($S) { font-size: $font-size-2; }
+  font-size: $font-size-2;
+  // @include mq($S) { font-size: $font-size-2; }
   font-weight: normal;
   line-height: get-multiplier(54, $font-size-2);
 }

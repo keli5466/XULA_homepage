@@ -3,19 +3,41 @@
 	// min-height: 600px;
 	// height: 60vh;
 	position: relative;
-	height: 60vmin;
-	min-height: 50vmax;
+// 	@include mq($M){
+// 	height: 60vmin;
+// 	min-height: 50vmax;
+// }
+	@include mq($S){
+		height: 100%;
+	}
 
 	.container {
 
-		height: 95%;
+		// height: 95%;
 		max-width: 1600px;
-		width: 95%!important;
+		// min-height: 50vh;
+    // max-height: 100vh;
+		// width: 95%!important;
+	}
+	a.button-yellow{
+		display: inline-block;
+		float: left;
+		text-align: center;
+
+		margin: 1em;
+		width: 15em;
+
+
+		// @include bp(phone){
+		// 	display: block;
+		// 	margin-bottom: 1em;
+		//
+		// }
 	}
 
 	.wrap {
 		// margin: 1em 0 0 1em;
-		text-align: center;
+		text-align: left;
 		z-index: 1;
 		padding: 5em;
 	}
@@ -23,15 +45,20 @@
 	h2 {
 		// font-size: 80px;
 		// font-weight: bold;
-		margin-bottom: 5%;
+		margin-bottom: .5em;
 	}
 
 
 img.cutout {
-	width: 90%;
-	max-width: 1600px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
+	@include bp(phone){
+		margin: 0!important;
+	}
+	width: 100%;
+	// max-width: 1600px;
+	margin-top: -8em;
+	margin-left: -5em;
+	// position: absolute;
+	//
+	// bottom: 0;
 }
 }

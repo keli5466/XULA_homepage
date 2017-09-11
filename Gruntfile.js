@@ -31,7 +31,6 @@ module.exports = function(grunt) {
         'custom-lodash',
         'concurrent:dev',
         'postcss:dev',
-        'jquery',
         'browserSync-init',
         'watch'
       ]);
@@ -48,11 +47,10 @@ module.exports = function(grunt) {
         'custom-lodash',
         'concurrent:dist',
         'postcss:dist',
-        'jquery'
       ]);
     }
   );
-  
+
   grunt.registerTask(
     'browserSync-init',
     function() {
@@ -121,7 +119,7 @@ module.exports = function(grunt) {
 
       grunt.log.writeln('Execute the jQuery Build Process');
 
-      mkdirp(jquery.dest, function(err) { 
+      mkdirp(jquery.dest, function(err) {
         if (err) {
           throw err;
         }

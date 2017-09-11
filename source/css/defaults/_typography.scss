@@ -3,12 +3,25 @@
 
 html {
   // Control font size based on breakpoints
-  font-size: 1rem;
-  @include mq($S) { font-size: 0.9rem; }
-  @include mq($M) { font-size: $font-size-base; }
+  @include mq($L) { font-size: 1rem; }
+
+	@include bp(tablet){
+		font-size: .9rem;
+	}
+  @include bp(phone){
+      font-size: 0.8rem;
+  }
+  // @include mq($S) { font-size: 0.7rem; }
+  // @include mq($M) { font-size: 0.8rem; }
+  // @include mq($L){ font-size: $font-size-base; }
 }
 /********************************************************** Typography */
-
+input{
+  font-family: $montserrat;
+}
+button{
+  font-family: $montserrat;
+}
 body {
   color: $black;
   font-family: $montserrat;
@@ -20,6 +33,9 @@ body {
   //@include mq($L) { font-size: get-multiplier(18, $font-size-base) + em; } // 18px = 1.125em
 }
 
+.fa{
+  font-family: FontAwesome;
+}
 
 h1,
 h2,

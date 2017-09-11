@@ -7,11 +7,7 @@
 				"Featured": true,
 				"Title": " Summer classes offically start",
 				"Date": "June 21st 2017",
-				"Day" : "01",
-				"BackgroundImage": {
-					"Class Name": "Event",
-					"default": "../../images/Pages/Home/XULA_students.jpg"
-				}
+				"Day" : "01"
 			},
 			{
 				"Type": "normal",
