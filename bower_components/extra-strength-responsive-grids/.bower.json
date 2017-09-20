@@ -1,0 +1,13 @@
+{
+  "name": "extra-strength-responsive-grids",
+  "homepage": "https://github.com/dfcb/extra-strength-responsive-grids",
+  "_release": "ff5f69e597",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ff5f69e597abc7f95fe2d77990bba8075e1cfc1e"
+  },
+  "_source": "https://github.com/dfcb/extra-strength-responsive-grids.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/dfcb/extra-strength-responsive-grids.git"
+}

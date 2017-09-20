@@ -1,0 +1,33 @@
+{
+  "name": "compass-mixins",
+  "authors": [
+    "Guillaume Balaine <igosuki@gmail.com>",
+    "Michael Heillein <nichaek>"
+  ],
+  "description": "Compass stylesheets",
+  "main": "lib/_compass.scss",
+  "keywords": [
+    "compass",
+    "mixins",
+    "sass",
+    "css3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/jamesearl/compass-mixins",
+  "_release": "10eb970856",
+  "_resolution": {
+    "type": "branch",
+    "branch": "libsass-compat",
+    "commit": "10eb970856430349bb7879a1176e5e7ab53124e6"
+  },
+  "_source": "https://github.com/jamesearl/compass-mixins.git",
+  "_target": "libsass-compat",
+  "_originalSource": "jamesearl/compass-mixins"
+}

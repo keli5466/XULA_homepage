@@ -26,6 +26,7 @@ body {
   color: $black;
   font-family: $montserrat;
   font-size: 16px;
+  font-weight: normal;
   font-size: $font-size-base; // 16px
   -webkit-font-smoothing: antialiased;
   // Optionally control font size based on breakpoints
@@ -44,6 +45,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-weight: normal;
   padding: 0;
 }
 
@@ -116,6 +118,7 @@ code {
 .georgia {
   font-family: $georgia;
   font-style: italic;
+  font-weight: normal;
 }
 /********************************************************** Icons */
 

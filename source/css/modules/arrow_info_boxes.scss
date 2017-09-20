@@ -2,12 +2,17 @@
 	.wrapper {
 		display: block;
 	}
-	.title{
+	.Title{
 		font-weight: bold;
-		margin: 1em auto;
+		margin: .5em 0;
 	}
 
 	.featured {
+		h2{
+			font-weight: bold;
+			letter-spacing: 0.1em;
+			margin-top: .5em;
+		}
 
 
 		&:nth-child(1) {
@@ -91,18 +96,18 @@
 	}
 
 	h1 {
-		letter-spacing: 3px;
+		letter-spacing: 0.1em;
 		line-height: 2em;
 		font-weight: bold;
 	}
 
 	h2 {
-		font-size: 14px;
+		// font-size: 14px;
 	}
 
 
 	.featured:hover .featuredimg {
-		opacity: 0.4;
+		opacity: 0.2;
 	}
 
 	.featured:hover .staff_img span {
@@ -122,6 +127,7 @@
 	.staff_info {
 
 padding: 2em;
+
 
 @include bp(phone){
 	padding: 1em;
@@ -151,6 +157,7 @@ padding: 2em;
 	text-align: center;
 	text-transform: uppercase;
 	opacity: 0;
+	font-weight: bold;
 	color: white;
 	transform: translate(-50%,-50%)
 }

@@ -14,11 +14,9 @@
 
       },
       "Title": "I am a leader.",
-      "Name": "Terrence Osbourne",
-      "Class_Year" :"Class of 2000",
-      "Major": "Fine Arts Major",
-      "Location": "New Orleans",
-      "job": "Local Artist"
+      "Name": "Judge Brian Jackson",
+      "Class_Year" :"Class of 1982",
+      "Major": " US District Judge"
     },
     {
     "BackgroundImage": {
@@ -30,12 +28,10 @@
       "xlarge": "../../images/Pages/Home/guy.jpg"
 
     },
-    "Title": "I am a leader.",
-    "Name": "Terrence Osbourne",
-    "Class_Year" :"Class of 2000",
-    "Major": "Fine Arts Major",
-        "Location": "New Orleans",
-    "job": "Local Artist"
+    "Title": "I am a dreamer.",
+    "Name": "David Jones III",
+    "Class_Year" :"Class of 2016",
+    "Major": "Pharmacy"
   },
   {
   "BackgroundImage": {
@@ -47,12 +43,10 @@
     "xlarge": "../../images/Pages/Home/doc.jpg"
 
   },
-  "Title": "I am a leader.",
-  "Name": "Terrence Osbourne",
-  "Class_Year" :"Class of 2000",
-  "Major": "Fine Arts Major",
-  "Location": "New Orleans",
-  "job": "Local Artist"
+  "Title": "I make a difference.",
+  "Name": "Katrina Nguyen",
+  "Class_Year" :"Class of 2012",
+  "Major": "Pharmacist & Clinical Assistant Professor"
   },
   {
   "BackgroundImage": {
@@ -64,12 +58,11 @@
     "xlarge": "../../images/Pages/Home/guy1.jpg"
 
   },
-  "Title": "I am a leader.",
+  "Title": "I create an impact.",
   "Name": "Terrence Osbourne",
   "Class_Year" :"Class of 2000",
-  "Major": "Fine Arts Major",
-  "Location": "New Orleans",
-  "job": "Local Artist"
+  "Major": "Artist"
+
   }
 
 

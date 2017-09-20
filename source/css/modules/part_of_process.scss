@@ -15,6 +15,12 @@
 			padding-right: 5%;
 			// padding-bottom: 3em;
 		}
+@include bp(phone){
+&:last-child {
+padding: 5%;
+}
+
+}
 	}
 
 	h2 {
@@ -73,6 +79,12 @@ font-weight: 400;
 		top: 0;
 		right: 0;
 	}
+@include bp(phone){
+&:after{
+background:none;
+}
+
+}
 }
 
 }

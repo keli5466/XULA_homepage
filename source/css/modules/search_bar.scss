@@ -5,12 +5,19 @@ input.searchbar {
     border: none;
     // padding: 1% 0%;
 		outline: none;
-		width:95%;line-height: 4em;
+		width:95%;
+line-height: 4em;
     border-bottom: black solid 2px;
+@include mq($S){
+width: 85%;
+}
+@include mq($M){
+width:95%;
+}
 }
 input::placeholder {
   color: black;
-  
+
 	@extend .heading-6;
 	font-weight: 200;
 

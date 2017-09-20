@@ -11,7 +11,13 @@
 .slide-viewer {
     position: relative; /* needed for IE7 */
     overflow: hidden;
-    height: 17em;
+    height: 19em;
+    @include mq($S){
+      height: 25em;
+    }
+    @include mq($M){
+      height:22em;
+    }
 	}
 
 .slide-group {
@@ -39,6 +45,18 @@
       margin: 1em auto;
       letter-spacing: 0.1em;
     }
+  //   &:after{
+  // content: " ";
+  // clear:both;
+  // visibility: hidden;
+  // position: absolute;
+  // display: block;
+  // // left: 33.4%;
+  // // width: 33.4%;
+  // height: 100%;
+  // background: #ccc;
+  //
+  //   }
 	 }
 
 .slide:first-child {

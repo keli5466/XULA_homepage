@@ -29,6 +29,15 @@
 <script data-main="js/main" src="js/libs/requirejs/require.js"></script>
 <script>
 
+
+var $panel = $('.leader');
+
+$panel.click( function(){
+  // console.log('click');
+  $panel.removeClass('is-open');
+
+  $(this).addClass('is-open');
+});
   // define settings for require
   define('settings', {
   });

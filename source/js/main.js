@@ -26,6 +26,7 @@
  // require = require('requirejs');
  // var requirejs = require('requirejs');
  // var require = require('requirejs');
+ // var matchheight = require('MatchHeight');
 
 require.config({
 
@@ -36,6 +37,7 @@ require.config({
 
 	paths: {
 		// Core Libraries
+		matchH : '../../bower_components/matchHeight/jquery.matchHeight',
 		jquery: 'libs/jquery/jquery',
 		lodash: 'libs/lodash',
 		slider: 'modules/slider',
@@ -61,6 +63,7 @@ require([
 	'lodash',
 	'apps/master/app',
 	'custom',
+	'matchH',
 	'slider',
 	'slideshow',
 	'searchNav',

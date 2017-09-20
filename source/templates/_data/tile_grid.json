@@ -5,7 +5,7 @@
     "Tile": [
       {
       "BackgroundImage": {
-        "Class Name": "College_of_Arts",
+        "Class Name": "Biological_and_Applied_Health_Sciences ",
         "default": "../../images/track.jpg",
         "small": "../../images/track.jpg",
         "medium": "../../images/track.jpg",
@@ -13,12 +13,12 @@
         "xlarge": "../../images/track.jpg"
 
       },
-      "Title": "College of Arts ",
+      "Title": "Biological and Applied Health Sciences ",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_Scienc",
+        "Class Name": "Business",
         "default": "../../images/church.jpg",
         "small": "../../images/church.jpg",
         "medium": "../../images/church.jpg",
@@ -26,12 +26,12 @@
         "xlarge": "../../images/church.jpg"
 
       },
-      "Title": "College of Science",
+      "Title": "Business",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_Math",
+        "Class Name": "Education_and_Counseling",
         "default": "../../images/cheer.jpg",
         "small": "../../images/cheer.jpg",
         "medium": "../../images/cheer.jpg",
@@ -39,12 +39,12 @@
         "xlarge": "../../images/cheer.jpg"
 
       },
-      "Title": "College of Math",
+      "Title": "Education and Counseling",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_Biology ",
+        "Class Name": "Fine_Arts_and_Humanities",
         "default": "../../images/grad.jpg",
         "small": "../../images/grad.jpg",
         "medium": "../../images/grad.jpg",
@@ -52,13 +52,13 @@
         "xlarge": "../../images/grad.jpg"
 
       },
-      "Title": "College of Biology  ",
+      "Title": "Fine Arts and Humanities ",
       "Link": "#"
     },
 
     {
       "BackgroundImage": {
-        "Class Name": "College_of_Music",
+        "Class Name": "Mathematical_and_Physical_Sciences",
         "default": "../../images/study.jpg",
         "small": "../../images/study.jpg",
         "medium": "../../images/study.jpg",
@@ -66,12 +66,12 @@
         "xlarge": "../../images/study.jpg"
 
       },
-      "Title": "College of Music ",
+      "Title": "Mathematical and Physical Sciences",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_Pharmacy",
+        "Class Name": "Social_and_Behavioral_Sciences",
         "default": "../../images/pharm.jpg",
         "small": "../../images/pharm.jpg",
         "medium": "../../images/pharm.jpg",
@@ -79,12 +79,12 @@
         "xlarge": "../../images/pharm.jpg"
 
       },
-      "Title": "College of Pharmacy",
+      "Title": "Social and Behavioral Sciences ",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_English",
+        "Class Name": "Graduate_Programs",
         "default": "../../images/family.jpg",
         "small": "../../images/family.jpg",
         "medium": "../../images/family.jpg",
@@ -92,12 +92,12 @@
         "xlarge": "../../images/family.jpg"
 
       },
-      "Title": "College of English",
+      "Title": "Graduate Programs",
       "Link": "#"
     },
     {
       "BackgroundImage": {
-        "Class Name": "College_of_History",
+        "Class Name": "Pre-Professional",
         "default": "../../images/library.jpg",
         "small": "../../images/library.jpg",
         "medium": "../../images/library.jpg",
@@ -105,7 +105,7 @@
         "xlarge": "../../images/library.jpg"
 
       },
-      "Title": "College of History",
+      "Title": "Pre-Professional Programs",
       "Link": "#"
     }
 

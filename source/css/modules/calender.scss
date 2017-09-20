@@ -12,37 +12,57 @@
 
 	.featured_event {
 		width: 100%;
+		background-color: black;
 		margin-bottom: 1.5em;
 		color: white;
 		position: relative;
-		height: 20em;
+		height: 17em;
 
 		.event {
-			font-size: 1.2em;
-			border: none;
-			@include mq($M){
-				padding: 5em;
-			}
+			@extend .container;
+			// font-size: 1.2em;
+			margin-top: 5%;
 
-			@include mq($S){
-				padding: 2em;
+			border: none;
+			h1{
+				@extend .heading-6 ;
+
 			}
+			h2{
+				@extend .heading-3 ;
+				font-weight: bold;
+			}
+			.date span{
+				font-size: 4em;
+			}
+			// @include mq($M){
+			// 	padding: 5em 0em;
+			// }
+			//
+			// @include mq($S){
+			// 	padding: 2em 0em;
+			// }
 		}
 
 		.bar {
 			background-color: $gold;
-		
+
 			position: absolute;
 			bottom: -1.5em;
 			color: black;
 			right: 0;
-			height: 3em;
+			height:4em;
 			float: right;
 			text-transform: uppercase;
-			letter-spacing: 0.3em;
-			line-height: 3em;
-			font-weight: bold;
-			padding: 1em 4em;
+
+			p{
+				letter-spacing: 0.1em;
+				// @extend .center-vertically;
+				line-height: 4em;
+				font-weight: bold!important;
+			}
+
+			padding: 0em 4em;
 			@include mq($S){
 				width: 90%;
 			}
